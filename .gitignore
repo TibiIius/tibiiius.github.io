@@ -10,3 +10,6 @@ dist
 .basement
 config.local.js
 basement_dist
+
+# We install fontawesome as a node module and then copy it to the public folder, so we don't need to check it into the git repo
+src/.vuepress/public/assets/fontawesome

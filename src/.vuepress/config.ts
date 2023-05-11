@@ -7,6 +7,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'stylesheet', href: `/assets/fontawesome/css/all.min.css` }],
   ],
   lang: 'en-US',
   theme: 'meteorlxy',
@@ -55,7 +56,7 @@ module.exports = {
     footer: {
       poweredBy: true,
       poweredByTheme: true,
-      custom: '<a href=/rss.xml target=_blank>RSS </a>',
+      custom: '<a href=/rss.xml target=_blank>RSS <i class="fa-regular fa-rss"></i></a>',
     },
   },
 
