@@ -1455,7 +1455,7 @@
     "@vuepress/types" "1.9.9"
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.3.0", "@vuepress/plugin-back-to-top@^1.3.1", "@vuepress/plugin-back-to-top@^1.9.9":
+"@vuepress/plugin-back-to-top@^1.3.0", "@vuepress/plugin-back-to-top@^1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.9.tgz#eedd5b08e11790cd994636b458188fd40205e967"
   integrity sha512-8bNsdZ0Dr96OdcoJ67dxCx1ysXpeTHma8w+YSsqBJoWGEOucBr0nW9oaDH85yoOtpiriWBlhUO32/Q0ojJtMfA==
@@ -1484,7 +1484,7 @@
   dependencies:
     "@vuepress/types" "1.9.9"
 
-"@vuepress/plugin-last-updated@1.9.9", "@vuepress/plugin-last-updated@^1.3.1":
+"@vuepress/plugin-last-updated@1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.9.9.tgz#a7cb5f39b2793c8d113de08a514c316c26cc38c1"
   integrity sha512-MV4csmM0/lye83VtkOc+b8fs0roi7mvE7BmCCOE39Z6t8nv/ZmEPOwKeHD0+hXPT+ZfoATYvDcsYU7uxbdw0Pw==
@@ -1492,7 +1492,7 @@
     "@vuepress/types" "1.9.9"
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.9.9", "@vuepress/plugin-nprogress@^1.3.1":
+"@vuepress/plugin-nprogress@1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.9.9.tgz#4fee4818ddc8ddc6a1778b7f2b74ab784c90915d"
   integrity sha512-+3fLxjwTLH8MeU54E7i1ovRu9KzBom2lvSeUsu9B8PuLyrETAqW7Pe1H66awEEALEe0ZnnEU4d7SeVe9ljsLAQ==
@@ -1508,14 +1508,14 @@
     "@vuepress/shared-utils" "1.9.9"
     "@vuepress/types" "1.9.9"
 
-"@vuepress/plugin-search@1.9.9", "@vuepress/plugin-search@^1.3.1", "@vuepress/plugin-search@^1.9.9":
+"@vuepress/plugin-search@1.9.9", "@vuepress/plugin-search@^1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.9.tgz#d30804b86f9b7f54b3db0b987a288433be3cfd7b"
   integrity sha512-W/FE+YHoXDD4qk2wu5yRMkti271TA4y+7UBMrmCavvVAGrLIRnaZfswRUgIiDlEthBc+Pn8/As/Dy1jFTLBa9A==
   dependencies:
     "@vuepress/types" "1.9.9"
 
-"@vuepress/shared-utils@1.9.9", "@vuepress/shared-utils@^1.0.0-alpha.39", "@vuepress/shared-utils@^1.2.0", "@vuepress/shared-utils@^1.3.0", "@vuepress/shared-utils@^1.3.1":
+"@vuepress/shared-utils@1.9.9", "@vuepress/shared-utils@^1.2.0", "@vuepress/shared-utils@^1.3.0":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.9.9.tgz#f6561ec2264d54e4e459d17678766ffe09f4bfc6"
   integrity sha512-qhk/7QF5LgMEXhEB1hlqreGFgkz4p2pmaBBNFxnAnYmSwmyO+u/oFOpZLI16QRx9Wg6ekR2ENmByQLxV7y4lJg==
@@ -2966,13 +2966,6 @@ css-parse@~2.0.0:
   integrity sha512-UNIFik2RgSbiTwIW1IsFwXWn6vs+bYdq83LKTSOsx7NJR7WII9dxewkHLltfTLVppoUApHV0118a4RZRI9FLwA==
   dependencies:
     css "^2.0.0"
-
-css-prefers-color-scheme@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/css-prefers-color-scheme/-/css-prefers-color-scheme-3.1.1.tgz#6f830a2714199d4f0d0d0bb8a27916ed65cff1f4"
-  integrity sha512-MTu6+tMs9S3EUqzmqLXEcgNRbNkkD/TGFvowpeoWJn5Vfq7FMgsmRQs9X5NXAURiOBmOxm/lLjsDNXDE6k9bhg==
-  dependencies:
-    postcss "^7.0.5"
 
 css-select-base-adapter@^0.1.1:
   version "0.1.1"
@@ -5651,16 +5644,6 @@ markdown-it-emoji@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha512-QCz3Hkd+r5gDYtS2xsFXmBYrgw6KuWcJZLCEkdfAuwzZbShCmCfta+hwAMq4NX/4xPzkSHduMKgMkkPUJxSXNg==
-
-markdown-it-img-lazy@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/markdown-it-img-lazy/-/markdown-it-img-lazy-1.0.3.tgz#313fd6d128a965503abf86010fa6ac84bd7f9fdd"
-  integrity sha512-H1wOixBCI8Jm9vxn5f5lsDsTdhG8HxLiC5eh5TjVe/Dv//zwAi/R5+WSpRYmQtyc1+RF1kS4cuLPt1wGid0xWA==
-
-markdown-it-imsize@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
-  integrity sha512-5SH90ademqcR8ifQCBXRCfIR4HGfZZOh5pO0j2TglulfSQH+SBXM4Iw/QlTUbSoUwVZArCYgECoMvktDS2kP3w==
 
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.4"
@@ -8597,13 +8580,6 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-blog-multidir@^1.0.4:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-blog-multidir/-/vuepress-plugin-blog-multidir-1.0.5.tgz#173acaba3f06a7ed7462157db62b6f1d3a2c1524"
-  integrity sha512-XpB2uHHlEFiW9OhbUAuMD7JwM19yCn1WJ1G3mYmjVTCZrnkxrjq5b6ngPZnbEZX1LnnxWMbRzWXETQANypHu1g==
-  dependencies:
-    "@vuepress/shared-utils" "^1.0.0-alpha.39"
-
 vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.2:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
@@ -8638,14 +8614,6 @@ vuepress-plugin-feed@^0.1.8:
     lodash.trimstart "^4.5.1"
     remove-markdown "0.3.0"
     striptags "3.1.1"
-
-vuepress-plugin-img-lazy@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-img-lazy/-/vuepress-plugin-img-lazy-1.0.4.tgz#f444c1e21a2c95117f1bcb97a0962660362fa181"
-  integrity sha512-4mMIy3vZzNZupFuohPKlOHGd0rNZEMEHEyN8b2M3j1yBANrkhGg1wNnpsdpe7ZnLdtVpxH3JQT7a3TDdxLLFmQ==
-  dependencies:
-    markdown-it-img-lazy "^1.0.2"
-    markdown-it-imsize "^2.0.1"
 
 vuepress-plugin-mailchimp@^1.4.1:
   version "1.4.2"
@@ -8749,23 +8717,7 @@ vuepress-theme-meteorlxy@^1.9.0:
     vuepress-plugin-table-of-contents "^1.1.5"
     vuepress-plugin-zooming "^1.1.7"
 
-vuepress-theme-ououe@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-ououe/-/vuepress-theme-ououe-1.5.3.tgz#94c8b1a84820d2d90bb2c536d10c5062263c2019"
-  integrity sha512-H9EzZF6quw5EbXGgg2owWpsZEm+mN8BLC7pux7THRzlGnoJ1+2z8oXjJAANl+SHYt2pZl/XlDJWuQ/A1te4RCA==
-  dependencies:
-    "@vuepress/plugin-back-to-top" "^1.3.1"
-    "@vuepress/plugin-last-updated" "^1.3.1"
-    "@vuepress/plugin-nprogress" "^1.3.1"
-    "@vuepress/plugin-search" "^1.3.1"
-    "@vuepress/shared-utils" "^1.3.1"
-    css-prefers-color-scheme "^3.1.1"
-    vuepress "^1.3.1"
-    vuepress-plugin-blog-multidir "^1.0.4"
-    vuepress-plugin-img-lazy "^1.0.4"
-    vuepress-plugin-reading-progress "^1.0.10"
-
-vuepress@^1.3.1, vuepress@^1.5.3:
+vuepress@^1.5.3:
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.9.9.tgz#75b313f48a21b2eeb435cad52333f26b3b8a7404"
   integrity sha512-CU94W3EdWaCavGx2VSvQJMI/hyv+m/YMdrvJJw67EVfmmJJDb1iTGrilDgLd0qsyrXzBy0Ru9Qi6rkf4IwcOTg==

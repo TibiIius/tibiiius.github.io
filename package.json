@@ -13,8 +13,7 @@
     "vuepress": "^1.5.3",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-theme-meteorlxy": "^1.9.0",
-    "vuepress-theme-ououe": "^1.5.3"
+    "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev src",
