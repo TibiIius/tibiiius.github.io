@@ -2,9 +2,9 @@ name: Build and Deploy to GH Pages
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ['master']
   pull_request:
-    branches: [ "master" ]
+    branches: ['master']
   workflow_dispatch:
 
 jobs:
@@ -13,6 +13,11 @@ jobs:
     env:
       NODE_VERSION: 20.x # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
+      # We need to setup our timezone so that git commits are correctly timestamped. This otherwise interferes with post update times.
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Europe/Berlin
       # `fetch-depth: 0` ensures we fetch all repository commits. This is needed by some VuePress plugin that is in use.
       - uses: actions/checkout@v3
         with:
@@ -39,8 +44,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
