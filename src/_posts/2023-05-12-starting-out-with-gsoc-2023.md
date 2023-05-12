@@ -1,5 +1,6 @@
 ---
 date: 2023-05-12
+description: My first steps going into GSoC 2023
 category: Development
 tags: 
   - gnome

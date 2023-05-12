@@ -1,5 +1,6 @@
 ---
 category: About Me
+description: A post where I introduce who I am and what I'm going to write about in this blog.
 tags:
   - blog
   - about
