@@ -73,6 +73,14 @@ module.exports = {
       {
         feed: {
           canonical_base: 'https://blog.timfb.dev',
+          feeds: {
+            atom1: {
+              enable: false,
+            },
+            json1: {
+              enable: false,
+            },
+          },
         },
       },
     ],
