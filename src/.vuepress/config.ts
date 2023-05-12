@@ -31,7 +31,7 @@ module.exports = {
         useGeo: true,
       },
       // show title in the header or not
-      showTitle: false,
+      showTitle: true,
     },
     // Info Card Config (Optional)
     infoCard: {
