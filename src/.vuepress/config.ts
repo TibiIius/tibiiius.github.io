@@ -44,6 +44,10 @@ module.exports = {
         useGeo: false,
       },
     },
+    // We disable comments for now
+    // Using a GitHub OAuth App, you will leak your client secret if you handle this client-side (see https://github.com/meteorlxy/vssue/issues/16)
+    // Either we should use gatekeeper as a server-side solution, or we should use GitLab as a provider, as their Implicit Grant flow does not require a client secret
+    comments: false,
     lastUpdated: true,
     smoothScroll: true,
     defaultPages: {
