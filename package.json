@@ -6,15 +6,15 @@
   "author": "TimFB <timf.brueggemann1999@gmx.de>",
   "license": "MIT",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@vuepress/plugin-active-header-links": "^1.9.9",
     "@vuepress/plugin-back-to-top": "^1.9.9",
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-search": "^1.9.9",
     "vuepress": "^1.5.3",
+    "vuepress-plugin-feed": "TibiIius/vuepress-plugin-feed",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-feed": "TibiIius/vuepress-plugin-feed",
-    "@fortawesome/fontawesome-free": "^6.4.0",
     "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "scripts": {
