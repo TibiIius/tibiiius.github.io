@@ -1,13 +1,12 @@
 ---
 category: About Me
+title: Introduction Post
 description: A post where I introduce who I am and what I'm going to write about in this blog.
 tags:
   - blog
   - about
 date: 2023-05-11
 ---
-
-# Introduction Post
 
 A post where I introduce who I am and what I'm going to write about in this blog.
 

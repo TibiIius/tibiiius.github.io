@@ -1,5 +1,6 @@
 ---
 date: 2023-05-12
+title: Starting Out With GSoC 2023
 description: My first steps going into GSoC 2023
 category: Development
 tags: 
@@ -11,15 +12,13 @@ tags:
   - flatsync
 ---
 
-# Starting Out With GSoC 2023
-
 With GSoC right around the corner, I recently stumbled upon a project running under the GNOME Foundation that piqued my interest.
 
 *~{{ Math.round($page.readingTime.minutes) }} minutes to read ({{ $page.readingTime.words }} words).*
 
 ## Getting Interested in GSoC 2023
 
-I have both used and learned from quite a few different FOSS applications and projects in the past, but I never really contributed to one before, which always bugged me. I either never really found the time, lacked the required skill(s), or just didn't find anything that interested me enough to get started. 
+I have both used and learned from quite a few different FOSS applications and projects in the past, but I never really contributed to one before, which always bugged me. I either never really found the time, lacked the required skill(s), or just didn't find anything that interested me enough to get started.
 
 However, I then stumbled across [FlatSync](https://gitlab.gnome.org/Cogitri/flatsync), a tool to keep your Flatpaks in sync across reinstalls and/or multiple machines. Switching over from NixOS to Silverblue, I missed declaring all my packages in one module and then having all of them available after a single `nixos-rebuild switch`, especially since I use 2 different machines regularly. Needless to say, I was instantly hooked on the idea and began setting up a dev environment to start working on the project.
 
@@ -29,7 +28,7 @@ I reached out to the project's mentor on Matrix and got to work on implementing 
 
 ## Applying to GSoC
 
-After successfully getting involved in the project, I decided upon signing up for GSoC. I had mixed feelings about this, as I only have some basic experience regarding Rust and DBus. 
+After successfully getting involved in the project, I decided upon signing up for GSoC. I had mixed feelings about this, as I only have some basic experience regarding Rust and DBus.
 
 Fast-forward to today, and I've been accepted into the program. I am both **very** excited as well as grateful to be a part of such a big project, and I'm very much looking forward to engaging in development!
 
