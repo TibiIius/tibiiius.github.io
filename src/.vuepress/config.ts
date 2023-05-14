@@ -60,7 +60,7 @@ module.exports = {
     footer: {
       poweredBy: true,
       poweredByTheme: true,
-      custom: '<a href=/rss.xml target=_blank>RSS <i class="fa-regular fa-rss"></i></a>',
+      custom: '<a href=/rss.xml target=_blank>RSS <i class="fa-solid fa-rss fa-sm"></i></a>',
     },
   },
 
