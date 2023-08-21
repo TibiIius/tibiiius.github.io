@@ -40,7 +40,7 @@ If the remote state differs from the local state and is newer, missing applicati
 
 There's also been a lot of work behind the scenes, cleaning up the codebase and preparing it for easy adaptation of additional API providers.
 
-Though the progress is summed up pretty easily, it's a rather big milestone for the project. The daemon's (very) basic functionality is now complete, and you can test the project already if you're interested (and not intimidated by CLI), though please be aware that it's still very much in early development and stable or ready for everyday use at all.
+Though the progress is summed up pretty easily, it's a rather big milestone for the project. The daemon's (very) basic functionality is now complete, and you can test the project already if you're interested (and not intimidated by CLI), though please be aware that it's still very much in early development and not stable or ready for everyday use at all.
 
 ### Next Steps
 
