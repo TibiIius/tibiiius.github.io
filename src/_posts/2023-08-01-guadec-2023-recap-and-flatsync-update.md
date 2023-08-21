@@ -14,6 +14,8 @@ tags:
 
 This post will cover my experiences at GUADEC 2023 in Riga, Latvia, and will also give a status update on FlatSync's latest progress.
 
+![Sponsored by GNOME](./assets/sponsored-by-foundation.png)
+
 ## GUADEC 2023
 
 Due to my GSoC internship, I was given the opportunity to attend GUADEC 2023 in Riga, Latvia. First of all, I am very grateful for giving me this possibility and want to give my sincere thanks.
