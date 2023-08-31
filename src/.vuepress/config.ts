@@ -14,7 +14,7 @@ module.exports = {
   themeConfig: {
     personalInfo: {
       nickname: 'Tibilius',
-      avatar: '/img/avatar.png',
+      avatar: 'https://avatars.githubusercontent.com/u/56914732?v=4',
       description: description,
       sns: {
         github: {
