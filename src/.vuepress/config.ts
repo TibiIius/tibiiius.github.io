@@ -15,6 +15,7 @@ module.exports = {
     personalInfo: {
       nickname: 'Tibilius',
       avatar: 'https://avatars.githubusercontent.com/u/56914732?v=4',
+      email: 'oss@timfb.dev',
       description: description,
       sns: {
         github: {
