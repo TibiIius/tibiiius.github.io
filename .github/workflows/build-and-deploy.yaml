@@ -38,7 +38,7 @@ jobs:
         with:
           path: './src/.vuepress/dist'
   deploy:
-    
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -49,6 +49,5 @@ jobs:
       id-token: write # to verify the deployment originates from an appropriate source
     steps:
       - name: Deploy to GitHub Pages
-        if: github.event_name != 'pull_request'
         id: deployment
         uses: actions/deploy-pages@v2
