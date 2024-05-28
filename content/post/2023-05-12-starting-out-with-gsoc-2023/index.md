@@ -2,7 +2,7 @@
 date: 2023-05-12
 title: Starting Out With GSoC 2023
 description: My first steps going into GSoC 2023
-category: Development
+categories: Development
 tags: 
   - gnome
   - gsoc
@@ -13,8 +13,6 @@ tags:
 ---
 
 With GSoC right around the corner, I recently stumbled upon a project running under the GNOME Foundation that piqued my interest.
-
-*~{{ Math.round($page.readingTime.minutes) }} minutes to read ({{ $page.readingTime.words }} words).*
 
 ## Getting Interested in GSoC 2023
 

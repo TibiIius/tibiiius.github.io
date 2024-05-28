@@ -2,7 +2,7 @@
 date: 2023-10-28
 title: FlatSync Status Update
 description: Quick status update on FlatSync's current state.
-category: Development
+categories: Development
 tags:
   - gnome
   - rust

@@ -2,41 +2,35 @@ name: Build and Deploy to GH Pages
 
 on:
   push:
-    branches: ['master']
+    branches: ["master"]
   pull_request:
-    branches: ['master']
+    branches: ["master"]
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NODE_VERSION: 20.x # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+      HUGO_VERSION: latest
     steps:
       # We need to setup our timezone so that git commits are correctly timestamped. This otherwise interferes with post update times.
       - name: Setup timezone
         uses: zcong1993/setup-timezone@master
         with:
           timezone: Europe/Berlin
-      # `fetch-depth: 0` ensures we fetch all repository commits. This is needed by some VuePress plugin that is in use.
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'yarn'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Install deps
-        run: yarn
       - name: Build static files
-        run: yarn build
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './src/.vuepress/dist'
+          path: "./public"
   deploy:
     if: github.event_name != 'pull_request'
     environment:

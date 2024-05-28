@@ -2,7 +2,7 @@
 date: 2023-06-26
 title: "(Almost) Bi-weekly GSoC Update: FlatSync GSettings Integration"
 description: Integrating GSettings into FlatSync for GSoC 2023.
-category: Development
+categories: Development
 tags: 
   - gnome
   - gsoc
