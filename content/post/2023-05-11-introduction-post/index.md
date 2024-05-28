@@ -1,5 +1,5 @@
 ---
-category: About Me
+categories: About Me
 title: Introduction Post
 description: A post where I introduce who I am and what I'm going to write about in this blog.
 tags:
@@ -9,8 +9,6 @@ date: 2023-05-11
 ---
 
 A post where I introduce who I am and what I'm going to write about in this blog.
-
-*~{{ Math.round($page.readingTime.minutes) }} minutes to read ({{ $page.readingTime.words }} words).*
 
 ## About Myself
 

@@ -2,7 +2,7 @@
 date: 2023-05-31
 title: "Bi-weekly GSoC Update: Reaching FlatSync's MVP"
 description: Latest status update on GSoC for FlatSync.
-category: Development
+categories: Development
 tags: 
   - gnome
   - gsoc

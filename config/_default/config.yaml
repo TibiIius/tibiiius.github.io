@@ -1,0 +1,86 @@
+module:
+  imports:
+    path: "github.com/CaiJimmy/hugo-theme-stack/v3"
+baseURL: https://blog.timfb.dev/
+languageCode: en-us
+
+title: Tibilius' Blog
+
+menu:
+  main: []
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/TibiIius
+      params:
+        icon: brand-github
+    - identifier: rss
+      name: RSS
+      url: /rss.xml
+      params:
+        icon: rss
+    - identifier: mail
+      name: Email
+      url: mailto:oss@timfb.dev
+      params:
+        icon: mail
+
+permalinks:
+    post: /posts/:year/:month/:day/:slug
+    page: /:slug
+
+uglyURLs: true
+
+enableGitInfo: true
+
+params:
+  contact:
+    email: oss@timfb.dev
+  mainSections:
+      - post
+  featuredImageField: image
+  rssFullContent: true
+ 
+  footer:
+      since: 2023
+ 
+  dateFormat:
+      published: Jan 02, 2006
+      lastUpdated: Jan 02, 2006 15:04 GMT+2
+ 
+  sidebar:
+    compact: false
+    subtitle: "Just my personal blog where I write about tech-related stuff."
+    avatar:
+      enabled: true
+      local: false
+      src: "https://avatars.githubusercontent.com/u/56914732?v=4"
+
+  article:
+    math: true
+    toc: true
+    readingTime: true
+    page:
+      - type: toc
+  widgets:
+    homepage:
+      - type: search
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+  colorScheme:
+    toggle: false
+    default: "auto"
+outputFormats:
+  RSS:
+    mediaType: "application/rss+xml"
+    baseName: "rss"
+    rel: "alternate"
+    isPlainText: false
+    isHTML: false
+    noUgly: true

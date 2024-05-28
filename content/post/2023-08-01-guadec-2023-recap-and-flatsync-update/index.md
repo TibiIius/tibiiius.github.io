@@ -2,7 +2,7 @@
 date: 2023-08-01
 title: "GUADEC 2023 Recap and FlatSync Update"
 description: Recap of GUADEC 2023 in Riga, Latvia, and an update on FlatSync.
-category: Development
+categories: Development
 tags: 
   - gnome
   - gsoc
@@ -14,7 +14,7 @@ tags:
 
 This post will cover my experiences at GUADEC 2023 in Riga, Latvia, and will also give a status update on FlatSync's latest progress.
 
-![Sponsored by GNOME](./assets/sponsored-by-foundation.png)
+![Sponsored by GNOME](sponsored-by-foundation.png)
 
 ## GUADEC 2023
 
