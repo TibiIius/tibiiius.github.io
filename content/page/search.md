@@ -5,6 +5,7 @@ layout: "search"
 outputs:
   - html
   - json
+hidden: true
 menu:
   main:
     weight: -60
